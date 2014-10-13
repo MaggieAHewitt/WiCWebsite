@@ -20,7 +20,9 @@ p.small {
     font-size: 15px;
 }
 
-a,
+a{
+	color:#000000;
+}
 a:hover,
 a:focus,
 a:active,
@@ -214,12 +216,13 @@ header img {
 }
 
 section {
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 section h2 {
     margin: 0;
-    font-size: 5em;
+    font-size: 2em;
+    padding:10px 0;
 }
 
 section.success {
@@ -246,11 +249,12 @@ section h2 {
 #about{}
 
 #events{
-	background: #ccc0e7;
+	margin-top:40px;
 }
 
 #contact{
 	background: #ccc0e7;
+	margin-top:40px;
 }
 
 #contactForm{
